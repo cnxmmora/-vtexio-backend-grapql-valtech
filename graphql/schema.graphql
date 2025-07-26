@@ -1,0 +1,15 @@
+type CookieData {
+  id: ID
+  CookieFortune: String
+}
+
+type Mutation {
+  createCookieData(CookieFortune: String!): CookieData
+  updateCookieData(id: ID!, CookieFortune: String!): CookieData
+  deleteCookieData(id: ID!): CookieData
+}
+type Query {  
+  getCookieData: [CookieData]
+  getRandomCookieData: CookieData
+  searchCookieData(CookieFortune: String!): CookieData
+}

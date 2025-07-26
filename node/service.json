@@ -1,0 +1,30 @@
+{
+  "memory": 256,
+  "ttl": 10,
+  "timeout": 2,
+  "minReplicas": 2,
+  "maxReplicas": 4,
+  "workers": 1,
+  "routes": {
+      "getMaster": {
+      "path": "/_v/masterdata/get",
+      "public": true
+    },
+     "createMasterdata": {
+      "path": "/_v/masterdata/create",
+      "public": true
+    },
+    "updateMaster": {
+      "path": "/_v/masterdata/update",
+      "public": true
+    },
+    "deleteMaster": {
+      "path": "/_v/masterdata/delete",
+      "public": true
+    },
+    "rename-masterdata": {
+      "path": "/_v/masterdata/rename",
+      "public": true
+    }
+  }
+}
