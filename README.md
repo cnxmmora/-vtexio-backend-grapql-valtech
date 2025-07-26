@@ -22,7 +22,7 @@ Este proyecto es una app construida sobre el ecosistema **VTEX IO** que muestra 
 ## 🚀 Instalación y despliegue
 
 ```bash
-git clone https://github.com/mamoraca/vtexio-backend-grapql-valtech.git
+git clone https://github.com/mamoraca/-vtexio-backend-grapql-valtech.git
 cd vtexio-backend-grapql-valtech
 vtex login valtech
 vtex use mauricio
